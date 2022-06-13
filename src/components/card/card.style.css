@@ -1,0 +1,32 @@
+
+.CardComponent{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    -moz-osx-font-smoothening: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    font-family: 'Amiri', serif;
+}
+.CardComponent h2{
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 10px 0;
+}
+.CardComponent h2:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+    background-color: rgba(240, 248, 255, 0.105);
+}
+.CardComponent img{
+    height: auto;
+    width: 100%;
+}
+.CardComponent img:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
